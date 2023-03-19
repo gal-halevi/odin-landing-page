@@ -146,3 +146,12 @@ h1 {
 .cta-button > button {
     border: 1px solid white;
 }
+
+.footer {
+    color: #E5E7EB;
+    background-color: #1F2937;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    display: flex;
+}
