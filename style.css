@@ -126,3 +126,23 @@ h1 {
     font-size: 26px;
     font-style: normal;
 }
+
+.call-to-action {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    margin: 120px 300px;
+    border-radius: 8px;
+    display: flex;
+    padding: 40px 100px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cta-text > .bold-text {
+    font-weight: bold;
+    font-size: 26px;
+}
+
+.cta-button > button {
+    border: 1px solid white;
+}
