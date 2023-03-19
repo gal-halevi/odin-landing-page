@@ -16,6 +16,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex:1;
 }
 
 .header-logo, .hero-main-text {
@@ -58,7 +59,7 @@ a {
     text-decoration: none;
 }
 
-img {
+.hero-container > img {
     width: 500px;
     height: auto;
 }
@@ -73,4 +74,3 @@ button {
     font-weight: 700;
     font-size: 20px;
 }
-
