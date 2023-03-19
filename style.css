@@ -74,3 +74,36 @@ button {
     font-weight: 700;
     font-size: 20px;
 }
+
+.information {
+    padding: 50px 400px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.information-container {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    justify-content: center;
+}
+
+.information-image > img {
+    width: 250px;
+    height: auto;
+    border-radius: 16px;
+}
+
+.information-image {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
